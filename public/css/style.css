@@ -1,0 +1,35 @@
+body{
+  background-color: #d37be0;
+}
+
+.nav-bar{
+  background-color: #563d7c;
+  color: #fff;
+  padding: 10px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 8px;
+  color: #fff;
+}
+ul li a:hover{
+  color: yellow;
+}
+.dash-board{
+  border-radius: 20px;
+}
+.logo{
+  font-size: 50px;
+  font-weight: bolder;
+}
